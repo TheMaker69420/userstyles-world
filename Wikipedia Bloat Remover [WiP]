@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           en.wikipedia.org/
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Removes upsell and donation reminders, along with account-related elements
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://en.wikipedia.org") {
+/* "We owe you an explanation" fundraising */
+	#centralNotice {
+	display:
+		none !important
+	}
+}
+/*Donate, account creating and login buttons*/
+#p-vector-user-menu-overflow > div:nth-child(1) {
+	display:
+		none !important
+}
