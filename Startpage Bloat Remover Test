@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           Startpage Bloat Remover Test
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Removes unneeded elements on URLS starting with https://www.startpage.com/do/dsearch
+@author         TheMaker42/TheMaker69420
+==/UserStyle== */
+
+@-moz-document domain("https://www.startpage.com/do/dsearch") {
+    /* Insert code here... */
+}
+.ai-chat-sidebar-banner {
+	display:
+		none !important
+}
+
+/*Video in Overview*/
+.css-pzwk0o {
+	display:
+		none !important
+}
+/*Overview on side*/
+.css-pg7ddm {
+	display:
+		none !important
+}
+
+/*"Privacy, Please! blog*/
+.blog-menu {
+	display:
+		none !important
+}
+/*In hamburger menu*/
+.css-1sgdxxa > div:nth-child(3) > div:nth-child(3) {
+	display:
+		none !important
+}
+/*App promo banner*/
+.css-1sgdxxa > div:nth-child(2) {
+	display:
+		none !important
+}
+/*Support*/
+.css-1sgdxxa > div:nth-child(3) > div:nth-child(5) {
+	display:
+		none !important
+}
+/*Press*/
+.css-1sgdxxa > div:nth-child(3) > div:nth-child(4) {
+	display:
+		none !important
+}
