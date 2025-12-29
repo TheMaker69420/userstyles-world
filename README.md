@@ -19,7 +19,8 @@ Bloat can be, but is not limited to:
 - *Claude.ai
 - *Startpage search
 - *Wikipedia
-* [WiP]
+
+\* [WiP]
 
 # How do I use these?
 Prerequisites: The Stylus extension, and a browser that can support it
