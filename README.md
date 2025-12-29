@@ -2,7 +2,7 @@
 I am not good at coding, very much beginner. Shit will not work. Send issues if stuff does not work.
 
 # What even is this?
-This is my personal list of websites that I remove various "bloat" from. "Bloat" can mean a variety of things in my definition.
+This is my personal list of websites that I remove various "bloat" from. "Bloat" can mean a variety of things in my definition. Along with "bloat," you will find CSS styles that either change website fonts, add accessibility (change colors), and etc.
 
 # What exactly is "bloat?" What can it be?
 Bloat can be, but is not limited to:
