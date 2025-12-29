@@ -24,8 +24,10 @@ Prerequisites: The Stylus extension, and a browser that can support it
 
 4: Change the domain settings to "Domains on the URL" or "URLS starting with" and then the URL for the websites
 
-(i.e. Gemini Bloat Remover [WIP] requires domains for URLS that start with "gemini.google.com" to work properly) !!!IMPORTANT
+(i.e. Gemini Bloat Remover requires domains for URLS that start with "gemini.google.com" to work properly) !!!IMPORTANT
 
-5: ?????
+5: Save the userstyle
 
-6: You did it!
+6: ?????
+
+7: You did it!
