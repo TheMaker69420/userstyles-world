@@ -1,0 +1,137 @@
+/*Part 1*/
+/*UI Removals/Tweaks*/
+
+/*App drop-down menu*/
+/*Lumo AI*/
+li.dropdown-item:nth-child(9) {
+    display:
+        none !important
+}
+/*Wallet*/
+li.dropdown-item:nth-child(8) > a:nth-child(1) {
+    display:
+        none !important
+}
+li.dropdown-item:nth-child(6) {
+    display:
+        none !important
+}
+/*Google Docs/Sheets Ripoff*/
+li.dropdown-item:nth-child(5) {
+    display:
+        none !important
+}
+/*Banner upsell*/
+.topnav-list > div:nth-child(1) {
+    display:
+        none !important
+}
+
+/* "Upgrade to send from @pm.me addresses" banner removal*/
+.bg-promotion {
+    display:
+        none !important
+}
+
+/*"Get more storage" button removal for free users*/
+.navigation-link-header-group-link--force-min-block-size {
+    display:
+        none !important
+}
+div.text-rg {
+    display:
+        none !important
+
+}
+
+/*Newsletters & View Tab Removal*/
+.navigation-list > div:nth-child(7) > li:nth-child(1) > a:nth-child(1) {
+    display:
+        none !important
+}
+
+li.navigation-item:nth-child(6) > div:nth-child(1) > button:nth-child(2) > span:nth-child(2) {
+    display:
+        none !important
+}
+
+li.navigation-item:nth-child(6) > div:nth-child(1) > button:nth-child(2) {
+    display:
+        none !important
+}
+
+li.navigation-item:nth-child(6) {
+    display:
+        none !important
+}
+
+.navigation-list > div:nth-child(11) > li:nth-child(1) > a:nth-child(1) > span:nth-child(1) > span:nth-child(2) > span:nth-child(1) {
+    display:
+        none !important
+}
+
+.navigation-list > div:nth-child(11) > li:nth-child(1) > a:nth-child(1) > span:nth-child(1) > svg:nth-child(1) {
+    display:
+        none !important
+}
+
+.navigation-list > div:nth-child(11) > li:nth-child(1) > a:nth-child(1) {
+    display:
+        none !important
+}
+
+li.navigation-item:nth-child(10) {
+    display:
+        none !important
+}
+
+/*"Get the Proton Mail apps" remover*/
+a.button:nth-child(2) {
+    display:
+        none !important
+}
+
+/*"Writing assistant" remover*/
+div.drawerAppSection:nth-child(6) {
+    display:
+        none !important
+}
+
+/*"Replay introduction" remover*/
+button.w-full:nth-child(3) {
+    display:
+        none !important
+}
+
+/*Beta access, default email application & enable notifications remover*/
+div.drawerAppSection:nth-child(8) {
+    display:
+        none !important
+}
+
+button.text-no-decoration:nth-child(1) {
+    display:
+        none !important
+}
+
+button.color-weak:nth-child(2) {
+    display:
+        none !important
+}
+
+/*Sidebar (Contacts, Calendar, Security Center & VPN) removal*/
+.drawer-sidebar {
+    display:
+        none !important
+}
+
+.drawer-visibility-control {
+    display:
+        none !important
+}
+
+/*Left sidebar toggle fix*/
+.mt-auto {
+    visibility:
+        visible !important
+}
