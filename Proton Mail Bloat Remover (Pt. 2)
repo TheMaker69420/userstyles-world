@@ -1,0 +1,97 @@
+/* ==UserStyle==
+@name           Proton Mail Bloat Remover (Pt. 2)
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Removes upsell and various unneeded elements on accounts.proton.me
+@author         TheMaker42/TheMaker69420
+==/UserStyle== */
+
+@-moz-document domain("account.proton.me") {
+    /* Insert code here... */
+	/*Section 2*/
+/*UI on account.proton.me Removal*/
+
+/*"Try out Mail to its full potential" remover*/
+div.inline-flex {
+  display:
+      none !important
+}
+
+/*Upgrade button in top right removal*/
+li.topnav-listItem:nth-child(1) {
+    display:
+        none !important
+}
+
+/*"Your plan vs Mail Plus" Removal*/
+section.container-section-sticky-section:nth-child(5) {
+    display:
+        none !important
+}
+
+/*Payment methods remover*/
+section.container-section-sticky-section:nth-child(7) {
+    display:
+        none !important
+}
+
+/*Credits remover*/
+section.container-section-sticky-section:nth-child(9) {
+    display:
+        none !important
+}
+
+/*Gift codes and invoice remover*/
+section.container-section-sticky-section:nth-child(11) {
+    display:
+        none !important
+}
+
+section.container-section-sticky-section:nth-child(13) {
+    display:
+        none !important
+}
+
+/*Sidebar*/
+
+/*Upgrade plan*/
+ul.navigation-list:nth-child(1) > li:nth-child(3) {
+    display:
+        none !important
+}
+
+/*Get the apps*/
+.navigation > ul:nth-child(2) > ul:nth-child(2) > li:nth-child(2) {
+    display:none !important
+}
+
+/*Domain names*/
+.navigation > ul:nth-child(2) > ul:nth-child(2) > li:nth-child(9) {
+    display:
+        none !important
+}
+
+/*Identity and addresses (pm.me subsection)*/
+.navigation > ul:nth-child(2) > ul:nth-child(2) > li:nth-child(5) {
+    display:
+        none !important
+}
+
+/*IMAP.SMTP (Bridge)*/
+li.navigation-item:nth-child(11) {
+    display:
+        none !important
+}
+
+/*Forwarding and AutoReply*/
+.navigation > ul:nth-child(2) > ul:nth-child(2) > li:nth-child(8) {
+    display:
+        none !important
+}
+
+/*Security & Privacy (Proton Sentinel)*/
+ul.navigation-list:nth-child(1) > li:nth-child(8) {
+    display:
+        none !important
+}
+}
