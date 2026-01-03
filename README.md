@@ -14,11 +14,12 @@ Bloat can be, but is not limited to:
   - This definition of bloat is very biased. Keep that in mind.
  
 # Current websites
-- Proton Mail
+- Proton Mail (split into 2 parts)
 - Google Gemini
 - *Claude.ai
 - *Startpage search
 - *Wikipedia
+- *Roblox
 
 \* [WiP]
 
