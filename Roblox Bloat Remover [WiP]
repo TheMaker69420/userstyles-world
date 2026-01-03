@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           Roblox Bloat "Remover"
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Userstyle that hides bloat from Roblox along with tweaks
+@author         TheMaker42/TheMaker69420
+==/UserStyle== */
+
+@-moz-document domain("www.roblox.com") {
+    /* Insert code here... */
+	/*Part 1: Homepage (roblox.com)*/
+	/*Footers*/
+	ul.row {
+		display:
+			none !important
+	}
+	/*Front page slop remover*/
+	/*Today's picks*/
+	div.game-sort-carousel-wrapper:nth-child(2) {
+		display:
+			none !important
+	}
+	/*Recommended for you*/
+	.game-home-page-container > div:nth-child(1) > div:nth-child(4) {
+		display:
+			none !important
+	}
+}
