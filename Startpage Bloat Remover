@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Startpage Bloat Remover Test
-@namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
+@namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    Removes unneeded elements on URLS starting with https://www.startpage.com/do/dsearch
 @author         TheMaker42/TheMaker69420
@@ -24,20 +24,25 @@
 	display:
 		none !important
 }
-
 /*Wiki containers*/
 div.wiki-qi-container:nth-child(4) {
 	display:
 		none!important
 }
 /*Side of search links*/
-div.wiki-qi-container:nth-child(2) {
+div.sxpr-wiki-qi:nth-child(2) > div:nth-child(2) {
 	display:
 		none !important
 }
 
 /*Adblock Reminder*/
 .support-banner {
+	display:
+		none !important
+}
+
+/*SafeSearch*/
+.safe-search-filter {
 	display:
 		none !important
 }
@@ -73,3 +78,8 @@ div.wiki-qi-container:nth-child(2) {
 	display:
 		none !important
 }
+/*Impressum*/
+.css-1sgdxxa > div:nth-child(4) > div:nth-child(2) {
+	display:
+		none !important
+} 
