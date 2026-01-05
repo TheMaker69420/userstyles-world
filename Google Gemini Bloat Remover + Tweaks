@@ -1,4 +1,13 @@
-/*Chat page*/
+/* ==UserStyle==
+@name           Gemini Bloat Remover + Tweaks
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    CSS rules to remove upsell elements on Google Gemini, along with tweaks
+@author         TheMaker42/TheMaker69420
+==/UserStyle== */
+
+@-moz-document domain("gemini.google.com") {
+    /*Chat page*/
 
 /*Upgrade upsell remove*/
 div.buttons-container:nth-child(1) {
@@ -34,4 +43,11 @@ upsell-button,
 .input-buttons-wrapper-bottom {
 	display:
 		none !important
+}
+	
+	/*Tweaks*/
+	/*Home Menu same color as Gem Menu*/
+	:root :where(.theme-host):where(.zero-state-theme) {
+	--bard-color-synthetic--chat-window-surface: #131314;
+}
 }
