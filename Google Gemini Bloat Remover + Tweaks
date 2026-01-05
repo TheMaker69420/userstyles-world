@@ -46,7 +46,7 @@ upsell-button,
 }
 	
 	/*Tweaks*/
-	/*Home Menu same color as Gem Menu*/
+	/*Home Menu as more fitting color*/
 	:root :where(.theme-host):where(.zero-state-theme) {
 	--bard-color-synthetic--chat-window-surface: #131314;
 }
