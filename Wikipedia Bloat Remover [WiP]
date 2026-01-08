@@ -1,13 +1,13 @@
 /* ==UserStyle==
-@name           en.wikipedia.org/
-@namespace      github.com/openstyles/stylus
+@name           Wikipedia Bloat Remover
+@namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
 @version        1.0.0
 @description    Removes upsell and donation reminders, along with account-related elements
-@author         Me
+@author         TheMaker42/TheMaker69420
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://en.wikipedia.org") {
-/* "We owe you an explanation" fundraising */
+/* "Wikipedia is human" fundraising */
 	#centralNotice {
 	display:
 		none !important
@@ -17,4 +17,29 @@
 #p-vector-user-menu-overflow > div:nth-child(1) {
 	display:
 		none !important
+}
+
+/*Tweaks*/
+/*Border colors same as page (dark mode only)*/
+@media screen {
+  html.skin-theme-clientpref-night {
+    color-scheme: dark;
+    --background-color-neutral-subtle: #101418;
+	}
+/*Better link colors (dark mode only)*/
+	/*Visited*/
+	@media screen {
+  html.skin-theme-clientpref-night {
+    color-scheme: dark;
+    --color-visited: #a3c3e9;
+}
+	/*New*/
+@media screen {
+  html.skin-theme-clientpref-night {
+    color-scheme: dark;
+    --color-base: #eaecf0;
+    --color-progressive: #5e9de9;
+	}
+		}
+	}
 }
