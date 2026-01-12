@@ -1,0 +1,50 @@
+/* ==UserStyle==
+@name           Usable eBay
+@namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
+@version        1.0.0
+@description    Makes eBay into something people can actually use.
+@author         TheMaker42/TheMaker69420
+==/UserStyle== */
+
+@-moz-document domain("www.ebay.com") {
+    /*Header links*/
+	.border-neutral-300 > div:nth-child(1) {
+		display:
+			none !important
+	}
+	/*Search by category*/
+	.gh-categories {
+	display:
+	none !important
+	}
+	/*Searched by you and recommended carousels*/
+	aside.flex {
+		display:
+			none !important
+	}
+	/*eBay Live carousels*/
+	.live-event-video-carousel__container {
+		display:
+			none !important
+	}
+	/*Top page ads*/
+	div.hp-md\:col-span-2 {
+		display:
+			none !important
+	}
+	/*Collectibles Auction Hub*/
+	div.hp-lg\:h-\[360px\] {
+		display:
+			none !important
+	}
+	/*Explore more options*/
+	.disco-module {
+		display:
+			none !important
+	}
+	/*Quick surveys*/
+	section.page-grid-container:nth-child(1) > ol:nth-child(1) > li:nth-child(4) {
+		display:
+			none !important
+	}
+}
