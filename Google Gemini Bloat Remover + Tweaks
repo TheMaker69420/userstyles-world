@@ -50,4 +50,8 @@ upsell-button,
 	:root :where(.theme-host):where(.zero-state-theme) {
 	--bard-color-synthetic--chat-window-surface: #131314;
 }
+	/*For Dark Reader*/
+	:root :where(.theme-host):where(.zero-state-theme) {
+	--darkreader-bg--bard-color-synthetic--chat-window-surface: #131314;
+}
 }
