@@ -51,9 +51,11 @@
 	}
 	/*Chat bubbles*/
 	/*User*/
-.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
-  background: #002830;
-	}
+.user-query-bubble-with-background[_ngcontent-ng-c1622755516]:not(.edit-mode) {
+	background: #002830;
+	border-radius: 24px var(--gem-sys-shape--corner-extra-small) 24px 24px;
+	max-width: calc(476px - var(--gem-sys-spacing--m)*2);
+}
 	/*AI*/
 	:where(.theme-host):where(.dark-theme) {
 	--gem-sys-color--on-surface: #fff;
@@ -66,6 +68,10 @@
 	/*Input bar*/
 	:where(.theme-host):where(.dark-theme) {
 	--gem-sys-color--surface-bright: #002830;
+	}
+	/*Horizontal wrappers and blockquotes*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--outline-variant: #002830;
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/u/1/gem") {
@@ -85,8 +91,20 @@
 			}
 	/*Chat colors*/
 	/*User*/
-	.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
-	background: #002830;
+	:where(.theme-host):where(.dark-theme) {
+ 	--gem-sys-color--surface-container-high: #002830;
+	}
+	/*Code blocks*/
+	.markdown[_ngcontent-ng-c1532857962] code {
+	background-color: #002830;
+	}
+	/*Input bar*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+	}
+	/*Horizontal wrappers and blockquotes*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--outline-variant: #002830;
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/u/0/app/") {
@@ -98,9 +116,9 @@
 	}
 	/*Chat bubbles*/
 	/*User*/
-.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
-  background: #002830;
-	}
+	.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
+	background: #002830;
+}
 	/*AI*/
 	:where(.theme-host):where(.dark-theme) {
 	--gem-sys-color--on-surface: #fff;
@@ -113,6 +131,10 @@
 	/*Input bar*/
 	:where(.theme-host):where(.dark-theme) {
 	--gem-sys-color--surface-bright: #002830;
+	}
+	/*Horizontal wrappers and blockquotes*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--outline-variant: #002830;
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/u/0/gem") {
@@ -132,8 +154,20 @@
 			}
 	/*Chat colors*/
 	/*User*/
-	.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
-	background: #002830;
+	:where(.theme-host):where(.dark-theme) {
+ 	--gem-sys-color--surface-container-high: #002830;
+	}
+		/*Code blocks*/
+	.markdown[_ngcontent-ng-c1532857962] code {
+	background-color: #002830;
+	}
+	/*Input bar*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+	}
+	/*Horizontal wrappers and blockquotes*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--outline-variant: #002830;
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/app/") {
@@ -145,9 +179,9 @@
 	}
 	/*Chat bubbles*/
 	/*User*/
-.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
-  background: #002830;
-	}
+	.user-query-bubble-with-background[_ngcontent-ng-c1622755516]:not(.edit-mode) {
+	background: #002830;
+}
 	/*AI*/
 	:where(.theme-host):where(.dark-theme) {
 	--gem-sys-color--on-surface: #fff;
@@ -160,6 +194,10 @@
 	/*Input bar*/
 	:where(.theme-host):where(.dark-theme) {
 	--gem-sys-color--surface-bright: #002830;
+	}
+	/*Horizontal wrappers and blockquotes*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--outline-variant: #002830;
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/gem") {
@@ -179,7 +217,19 @@
 			}
 	/*Chat colors*/
 	/*User*/
-	.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
-	background: #002830;
+	:where(.theme-host):where(.dark-theme) {
+ 	--gem-sys-color--surface-container-high: #002830;
+	}
+		/*Code blocks*/
+	.markdown[_ngcontent-ng-c1532857962] code {
+	background-color: #002830;
+	}
+	/*Input bar*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+	}
+	/*Horizontal wrappers and blockquotes*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--outline-variant: #002830;
 	}
 }
