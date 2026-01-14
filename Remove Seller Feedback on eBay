@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Remove Seller Feedback on eBay
+@namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
+@version        1.0.0
+@description   Removes seller feedback lists on ebay.com/fdbk. Only intended for those who are not interested in selling, only buying and reviewing.
+@author         TheMaker42/TheMaker69420
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.ebay.com/fdbk") {
+    /*Received as seller tabs and filter divider (for less empty space)*/
+	button.tabs__item:nth-child(3){
+		display:
+			none !important
+	}
+	button.tabs__item:nth-child(3) {
+		display:
+			none !important
+	}
+	.filters {
+		display:
+			none !important
+	}
+	
+	/*Detailed seller ratings*/
+	.dsr-summary {
+		display:
+			none !important
+	}
+}
