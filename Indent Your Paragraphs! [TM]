@@ -31,7 +31,7 @@
                 indent +
                 el.value.substring(end);
 
-            // Move cursor after the indent
+            // Move cursor after the indent 
             el.selectionStart = el.selectionEnd = start + indent.length;
         }
     });
