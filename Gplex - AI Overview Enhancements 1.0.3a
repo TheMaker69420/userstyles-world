@@ -1,0 +1,114 @@
+/* ==UserStyle==
+@name           Gplex - AI Overview Enhancements 1.0.3a
+@namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
+@version        1.0.3
+@description    Fixes + enhances AI Overview for Gplex only.
+@author         TheMaker42/TheMaker69420
+==/UserStyle== */
+
+@-moz-document domain("www.google.com") {
+	/*All versions (excl. 2019 and legacy*/
+	/*Change font(s) from Google Sans to Arial*/
+	html:not([layout="2019"]) * {
+	font-family: Arial,sans-serif !important;
+	}
+	body html:not([layout="2019"]) * {
+	font-family: Arial,sans-serif;
+	color: var(--jINu6c);
+	--nkmQOe: Arial,sans-serif !important;
+	--LI4Bo:  Arial,sans-serif !important;
+	--YfiKf:  Arial,sans-serif !important;
+	--IT7y3c: Arial,sans-serif !important;
+	--Aoh9Xe: Arial,sans-serif !important;
+	--rTk0E:  Arial,sans-serif !important;
+	--qR8X0:  Arial,sans-serif !important;
+	--qBwyqb: Arial,sans-serif !important;
+	--Eou8Yc: Arial,sans-serif !important;
+	--ztTqPe: Arial,sans-serif !important;
+	--lI1Trc: Arial,sans-serif !important;
+}
+}
+	html:not([layout="2019"]) .DuQANe {
+	color: var(--m3c10);
+	font-family: Arial,sans-serif !important;
+}
+	html:not([layout="2019"]) .wJwe6c {
+	font-family: Arial,sans-serif !important;
+}
+	/*Cited sources remove (so it stays in the box)*/
+	.jKhXsc, #atritem-_6_XYaeLrN-CrptQP0Zr96As_5 {
+		display:
+			none !important
+}	
+	/*Remove blue highlight on key text*/
+	.HxTRcb {
+	background: transparent !important
+}
+@-moz-document domain("www.google.com") {
+	/*Legacy Themes*/
+	/*2013L Gemini box padding*/
+	html[layout="2013L"] #ugf-right-neuro-playground .ugf-neuro-playground {
+	width: 280px;
+	height: auto !important;
+			}
+	
+	/*2014/15L Gemini box padding*/
+	html[layout="2015L"] #ugf-right-neuro-playground .ugf-neuro-playground {
+	width: 280px;
+	height: auto !important;
+			}
+
+	/*2016L Gemini box padding*/
+	html[layout="2016L"] #ugf-right-neuro-playground .ugf-neuro-playground {
+	width: 280px;
+	height: auto !important;
+			}
+}
+@-moz-document domain("www.google.com") {
+	/*2019*/
+	/*Rounded overview box (to match aesthetics)*/
+	html[layout="2019"] .ugf-neuro-playground {
+  	border-radius: 12px;
+  	border: none !important;
+  	outline: none !important;
+  	overflow: hidden;
+	}
+	
+	/*2019 fonts from Google Sans to Roboto*/
+	/*Using the * seems overkill, but it's the only solution I can think of for now*/
+	html[layout="2019"] * {
+	font-family: Roboto,sans-serif !important;
+}
+	body html[layout="2019"] .FkX2oe {
+	--nkmQOe: Roboto,sans-serif !important;
+	--LI4Bo: Roboto,sans-serif !important;
+	--IT7y3c: Roboto,sans-serif !important;
+	--Aoh9Xe: Roboto,sans-serif !important;
+	--rTk0E: Roboto,sans-serif !important;
+	--qR8X0: Roboto,sans-serif !important;
+	--qBwyqb: Roboto,sans-serif !important;
+	--Eou8Yc: Roboto,sans-serif !important;
+	--ztTqPe: Roboto,sans-serif !important;
+}
+	/*Fix settings spacing in tab*/
+	#ugf-settings-item, #ugf-settings-tab {
+	height: 40px;
+ 	margin: 11px 0 0;
+  	padding: 0 16px;	
+}
+}
+@-moz-document domain("www.google.com") {
+	/*?????*/
+	html[layout="retro"] * {
+	font-family: Comic Sans MS !important;
+}
+	html[layout="retro"] #ugf-right-neuro-playground {
+	transform: scale(1, -1) !important;
+}
+}
+@-moz-document domain("www.google.com") {
+	div.ugf-search-result:has([title="undefined"]) {
+		display:
+			none !important
+	}
+}
