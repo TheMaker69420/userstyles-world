@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           Gplex - AI Overview Enhancements 1.0.3a
+@name           Gplex - AI Overview Enhancements 1.0.3ab
 @namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
 @version        1.0.3
 @description    Fixes + enhances AI Overview for Gplex only.
@@ -111,4 +111,8 @@
 		display:
 			none !important
 	}
+	.MAeH {
+	background: linear-gradient(90deg,#4e7fcf00 0%,rgba(0,0,0,0) 0%) no-repeat 0% 0 !important;
+	background-size: 0% 0% !important;
+}
 }
